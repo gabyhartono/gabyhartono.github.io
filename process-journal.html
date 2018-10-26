@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Grab Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=PT Sans|Playfair Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display" rel="stylesheet">
 
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="./css/custom.css">
@@ -35,7 +35,6 @@
               <a class="nav-item nav-link" href="./index.html">Home</a>
               <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
               <a class="nav-item nav-link active" href="./process-journal.html">Process Journal <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Drones for Parking</a>
               <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
           </div>
@@ -44,51 +43,19 @@
       <!-- Navbar End -->
 
       <div class="container">
-        <div class="row light">
+        <div class="row">
 
           <div class="col-md-9">
 
             <div class="row master-heading">
-              <div class="col-md-12">
+              <div class="col-md-12" id="introduction">
                 <h1>Process Journal</h1>
               </div>
             </div>
 
-            <div class="row">
-              <div class="column">
-                <div id="carousel-overview" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-overview" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-overview" data-slide-to="1"></li>
-                    <li data-target="#carousel-overview" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="https://source.unsplash.com/1600x838/?sig=1" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="https://source.unsplash.com/1600x838/?sig=2" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="https://source.unsplash.com/1600x838/?sig=3" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carousel-overview" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carousel-overview" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
             <div class="row section-heading">
-              <div class="col-md-12" id="introduction">
-                <h3>Introduction</h3>
+              <div class="col-md-12" >
+                <h2>Introduction</h2>
               </div>
             </div>
 
@@ -100,231 +67,293 @@
 
             <div class="row section-heading" id="research">
               <div class="col-md-12">
-                <h3>1. Research</h3>
+                <h2>1. Researching Food Delivery</h2>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-6">
-                <p>To start off my research, I looked at the current autonomous technologies being used in the context of food delivery. I found that there were 2 main domains of technology used in food delivery implementation: small <strong>ground robots</strong> and <strong>drones</strong>.
-                  The most notable example for these ground robots were <i>Starship Technologies</i> food delivery robots that were being tested in Silicon Valley in America. From this, I thought that ground robots were the most suitable for implementation in very near future, though there is more interest in research to delivery drones,
-                  perhaps due to the prospect of making using of air space and avoiding all the ground traffic. For drones, I found that there was going to be a <i>Project Wing</i> trial done in a Tuggeranong in ACT, Australia. They've been testing small items and burritos delivery in the rural area but I think space problems could potentially occur in more populated areas.
-                </p>
+                <h3>Week 1: Project Start</h3>
+                <p>On the first week, I got in a group and we had to decide on the problem area or technology for our project on designing interfaces towards use of autonomous vehicles. We considered on-demand transport, emergency drone packages and food delivery by autonomous vehicle. We decided to explore food delivery, particularly for busy individuals like students because it was a popular area and we felt that we had more access to users being students ourselves. In hindsight, however, I felt that we tried to narrow down our problem area too early by targeting students.</p>
+                <p>But to start off my research, I looked at the current autonomous technologies being used in the context of food delivery and found some articles of food delivery robots being tested in Silicon Valley. </p>
               </div>
               <div class="col-md-6">
-                <img src="./img/process-journal/background_research.jpg" class="img-fluid" alt="Responsive image">
-                <span class="img-caption">Figure 1.1 - Sally using an academic database</span>
+                <img src="https://static5.businessinsider.com/image/58d48d4ed349f92a008b6a34-480/starship-technologies-doordash-delivery-robots.jpg" class="img-fluid" alt="Starship food delivery robot">
+                <span class="img-caption">Food delivery robots by Starship Technologies. Source: <a href="https://www.businessinsider.com/doordash-delivery-robots-starship-technologies-2017-3/?r=AU&IR=T">Business Insider.</a></span>
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12">
-                <p>For understanding current users of food delivery, I wanted to explore the current experience of food delivery and motivations for using. I sent out surveys and did a few interviews, as well as observed a street on campus where I often saw food delivery riders stopping by.</p>
-				</p>The survey responses I got back were pretty similar but because I didn’t get as much responses from frequent users as I would have liked, it was hard to identify the problems. Most of the respondents were quite satisfied with the current service and were using food delivery services for the convenience of not having to cook. 
-				My user research was not as thorough as I would have liked; I didn't get as much responses from current users but I did see a few trends. One thing that stood out to me was that people would be anxious if something went wrong with a delivery robot - therefore some felt that the current service was safer.</p>
+                <h3>Week 2: Finding our Users + Background Research</h3>
+                <p>This week we looked at defining our stakeholders and our target audience. We agreed to target busy people like students, and formed a questionnaire together to understand the experience of food delivery services using Google Forms.</p>
+                <p>I also started looking at academic research of autonomous delivery services. I found that there were 2 main domains of technology used in food delivery implementation: small ground robots and drones. The most notable example for these ground robots were Starship Technologies; the food delivery robots that were being tested in Silicon Valley in America. From this, I thought that ground robots were the most suitable for implementation in very near future, though there is more interest in research to delivery drones, perhaps due to the prospect of making using of air space and avoiding all the ground traffic. For drones, I found that there was going to be a Project Wing trial done in a Tuggeranong in ACT, Australia. They've been testing small items and burritos delivery in the rural area but space problems could potentially occur in more populated areas.</p>
               </div>
-        </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Week 3: User Research</h3>
+                <p>For understanding current users of food delivery, I wanted to explore the current experience of food delivery and motivations for using the service. I sent out the survey questions on Facebook and observed a street on campus where I often saw food delivery riders stopping by. The observations were done at a distance and around late afternoon to evening when I supposed people would be ordering. It was kind of hard to tell sometimes if a person was a delivery company rider and I mainly saw problems from the deliverer’s perspective such as not knowing where the customer is and the pick-up location. I also took note of environment conditions such as daylight, the stopping points for delivery riders and traffic and felt that it would be pretty difficult for a drone especially.</p>
+                <p>After I got questionnaire responses, I did a few interviews to get more qualitative information on people’s personal experience with delivery services and find out features of applications that they like to use.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Week 4: Synthesis of findings</h3>
+                <p>I worked to synthesis my findings through the survey form data and affinity diagramming. The survey responses I got back were pretty similar but because I didn’t get as much responses from frequent users as I would have liked, it was hard to identify the problems. Most of the respondents were quite satisfied with the current service and were using food delivery services for the convenience of not having to cook. One thing that stood out to me however, was when asked about using autonomous robots or drones, people would be anxious if something went wrong with a delivery vehicle - therefore some felt that the current service was safer and most not sure about it.</p>
+                <p>I deduced 3 overarching needs to-be addressed going forward:
+                  <ul>
+                    <li><strong>Safety and reliability</strong> of the autonomous service</li>
+                    <li><strong>Clarity and visibility</strong> of the process</li>
+                    <li><strong>Convenience and flexibility</strong> of a food delivery service.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
 
-		<div class="row dark">
+        <div class="row">
             <div class="row section-heading" id="elaboration">
               <div class="col-md-12">
-                <h3>2. Elaboration</h3>
+                <h2>2. Elaboration + Back to Research</h2>
               </div>
             </div>
-
 
             <div class="row">
               <div class="col-md-12">
-                <p>Week 6:
-                  <br>This week we were focusing on refining our problem space. Originally, we were looking at food delivery service in general and for busy students. But looking at longer, it felt a bit too broad and we couldn't really narrow down our scenario.</p>
-                  <p>After talking with some tutors, we think there's an option to approach it from a business perspective, to prevent customer problems. Otherwise create the facilitator for interaction between restaurants and customers to food delivery robots like Uber or Airbnb.
-                  Our user research doesn't quite reflect this though, and we don't have much connections to food businesses to fully understand their problems. I think that we should reframe our problem area and focus on a problem we are capable of solving but it's still very ambiguous.
-                </p>
+                <h3>Week 5: Grouping our Ideas</h3>
+                <p>We grouped together as a group again to discuss our findings. We had the idea to create a mobile application but it might be different depending on our user scenario. This was the storyboard I produced for a group ordering food delivery on campus:</p>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-md-6">
-                <img src="./img/process-journal/background_research_whiteboard.jpg" class="img-fluid" alt="Responsive image">
-                <span class="img-caption">Figure 2.2 - Nick exploring ideas</span>
+              <div class="col-md-12">
+                <img src="./img/process-journal/fooddeliverygroup.JPG" class="img-fluid" alt="Responsive image">
               </div>
-              <div class="col-md-6">
-                <p>Week 7:
-                  <br>Worked on exploring our concepts and creating storyboards. We broadened the target area into creating a food delivery platform for university students and businesses and ideated two concepts:
-                </p>
-                  <ul>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Week 6: Redefining our Problem Space</h3>
+                <p>This week we were focusing on refining our problem space. Originally, we were looking at food delivery service in general and for busy students. But looking at longer, it felt a bit too broad and we couldn't really narrow down our scenario. After talking with some tutors, we think there's an option to approach it from a business perspective, to prevent customer problems. Otherwise create the facilitator for interaction between restaurants and customers to food delivery robots like Uber or Airbnb. Our user research doesn't quite reflect this though, and we don't have much connections to food businesses to fully understand their problems. I think that we should reframe our problem area and focus on a problem we are capable of solving but it's still very ambiguous.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Week 7: Decisions</h3>
+                <p>Worked on exploring our concepts and creating storyboards. We broadened the target area into creating a food delivery platform for university students and businesses and ideated two concepts:
+                  <ol>
                     <li>A mobile app for ordering, tracking and collecting food from autonomous delivery.</li>
                     <li>An in-built interface into the delivery robot to communicate to restaurant and customer delivery details and procedures with interaction with mobile app.</li>
-                  </ul>
-              </div>
-              <div class="col-md-12">
-                <p>
-                  However, after discussions with tutors, it was decided that the problem area of food delivery too closely resembles existing services, and our concepts lacked to improve its efficiency. We had a change of plans and are now focused on background and user research into using autonomous technology for <strong>Parking Enforcement</strong>.
+                  </ol>
                 </p>
+                <p>However, after discussions with tutors, it was decided that the problem area of food delivery too closely resembles existing services, and our concepts lacked to improve its efficiency. We had a change of plans and are now focused on background and user research into using autonomous technology for Parking Enforcement. </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <img src="./img/process-journal/initialbrainstorm_parking.png" class="img-fluid" alt="Responsive image">
+                <span class="img-caption">My brainstorm of parking enforcement issues.</span>
               </div>
             </div>
 
             <div class = "row">
               <div class="col-md-12">
-                <p>Week 8:
-                  <br>With a new problem area - autonomous parking enforcement - and only a few weeks left to research and create concepts, we spent this week researching and planning. From reading journal and newspaper articles I got a sense of how parking officers managed parking spaces and issued infringement notices. Marking tyres with chalk was the traditional method though I did hear about use with license plate scanners though I couldn't find out how they worked. Parking officers also have a pretty negative public perception. They are seen as being unnecessarily harsh or the council's revenue raisers. In terms of technology, IOT use in parking enforcement has been implemented in Melbourne with sensors to increase effectiveness of parking officers. Based on this background research, I tried sketching some interface concepts for monitoring parking hours and cars that autonomous drones would survey. But I couldn't understand much of the views of the parking officers themselves; of who we were designing the interface for.
-				</p>
-				<p>
-                  So for user research, we managed to get into contact with a few parking officials in councils through email. On Friday, I did a phone interview with a So for user research, we managed to get into contact with a few parking officials in councils through email. On Friday, I did a phone interview with a senior parking officer from Strathfield Council which gave us some insights into the working process of parking officers and the tools they currently use. We also happened upon two parking officers from City of Sydney on break and they helped us answer some of questions. They shared with us the experience and the abuse they get working as parking officers, included getting kicked and spat on. Our potential users were sceptical however, on the possibility of using drones for parking enforcement largely due to current government regulations and the loss of jobs. 
+                <h3>Week 8: Researching and planning</h3>
+                  <p>With a new problem area - autonomous parking enforcement - and only a few weeks left to research and create concepts, we spent this week researching and planning. From reading journal and newspaper articles I got a sense of how parking officers managed parking spaces and issued infringement notices. Marking tyres with chalk was the traditional method though I did hear about use with license plate scanners though I couldn't find out how they worked. Parking officers also have a pretty negative public perception. They are seen as being unnecessarily harsh or the council's revenue raisers. In terms of technology, IOT use in parking enforcement has been implemented in Melbourne with sensors to increase effectiveness of parking officers. Based on this background research, I tried sketching some interface concepts for monitoring parking hours and cars that autonomous drones would survey. But I couldn't understand much of the views of the parking officers themselves; of who we were designing the interface for.
+                  </p>
+                  <p>
+                  So for user research, we managed to get into contact with a few parking officials in councils through email. On Friday, I did a phone interview with a senior parking officer from Strathfield Council which gave us some insights into the working process of parking officers and the tools they currently use. We also happened upon two parking officers from City of Sydney on break and they helped us answer some of questions. They shared with us the experience and the abuse they get working as parking officers, included getting kicked and spat on. Our potential users were sceptical however, on the possibility of using drones for parking enforcement largely due to current government regulations and the loss of jobs.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Mid-Semester Break:</h3>
+                <p>During the break from classes, we had an interview with a manager in compliance. Unlike the previous people we've spoken to, he was a great advocate for automating parking enforcement. We learnt a lot about the various technologies that have been implemented to increase the efficiency of parking enforcement, and issues councils face going forward.
                 </p>
               </div>
             </div>
+          </div>
 
-            <div class="row slide-show">
+      <div class="row">
+			  <div class="row section-heading" id="development">
+          <div class="col-md-12">
+            <h2>3. Development</h2>
+          </div>
+        </div>
+
+			  <div class="row">
+			    <div class="col-md-6">
+            <img src="./img/process-journal/initial_thumbnails.jpg" class="img-fluid" alt="Responsive image">
+            <span class="img-caption">Small thumbnail sketches to understand overall interface elements</span>
+          </div>
+
+          <div class="col-md-6">
+            <img src="./img/process-journal/holisticsystem.jpg" class="img-fluid" alt="Responsive image">
+            <span class="img-caption">I tried mapping the overall system of autonomous parking enforcement. The dotted lines indicate possible connections for the then undecided third concept.</span>
+          </div>
+			  </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <img src="./img/process-journal/currentexpstoryboard.jpg" class="img-fluid" alt="Responsive image">
+            <span class="img-caption">I started sketching the current experience based on our user interviews.</span>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Week 9: Ideate, Evaluate, Iterate</h3>
+            <p>We decided on two concepts – a mobile app for parking officers on patrol to find parking violations through drone surveys and a desktop application for managers in-office council to manage drone routes and infringement notices.</p>
+            <h4>Concept 2 UI</h4>
+			 	    <p>I focused on sketching UI designs for concept 2, the desktop application. As another group member would also be thinking about alternate designs to concept 2, I thought back to our interviews, where the concern towards drones was the regulations surrounding it and how it would be able to scan from an aerial point of view. Therefore, for the low-fidelity prototype, I opted to use the idea of ground robots alike the food delivery ones from our earlier problem area to see if that was more reassuring, in a way.</p>
+    				<p>
+    				I figured to have a map of the patrolling areas as the main page. The map is colour coded by area and has icons for robots within that area. When you click on robots you'll be able to send them to another area, or any issues and violations they found within the area and pictures taken. Alternatively, if a sign of dispute, say the robot is vandalised, or something occurs you can manually take a picture from that robot. When you zoom in you'll be able to see individual parking spaces, parking provisions, etc. about parking. Parking violated cars will be marked, from license plate registration so even if they park somewhere else on the street, it will be fined. That being said, you can click on these marked cars to see the infringement notices they have been issued through e-permits if they enter the supervised areas. On the side is an expandable/minimizable sidebar of notices of violations, colour coded by area and symbol. Clicking on them will give infringement details available to print and mail out in a modal popup. Also, maybe an option could be included to cancel it if you find any errors.
+    				That means the screens:
+    				<ol>
+    					<li>Map overview</li>
+    					<li>Interactivity with icons
+    						<ul>
+    							<li>cars, spaces</li>
+    							<li>robots</li>
+    						</ul>
+    					</li>
+    					<li>Expanded sidebar</li>
+    					<li>Infringement details pop-up modal</li>
+    					<li>Login</li>
+    				</ol>
+    				</p>
+            <div class="row">
               <div class="col-md-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconcepttwo-1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconcepttwo-2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images1/IMG_3192.HEIC?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                <img src="./img/process-journal/concept2sketch_annotate.png" class="img-fluid" alt="Responsive image">
+                <span class="img-caption">Some wireframes for concept two.</span>
+              </div>
+            </div>
+    				<p>
+    				In the low fidelity paper prototype, I changed and omitted a couple of aspects from this early design such as the details seen when zooming and the expandable sidebar became a fixed and scrollable one. I wanted to make it a bit more simpler and some features were difficult to test with paper. At this point in time, I had an idea of what the parking manager wanted to achieve from this kind of concept, but I wasn’t entirely sure of what information they needed so in the end, the prototype was focused on testing the overall interface elements of clicking robots and finding infringements.
+    				</p>
+            <h4>Testing Concept Two</h4>
+            <p>Some things I would like to explore/change after user testing of concept two:
+              <ul>
+                <li><strong>Drone setting options</strong> - Instead of drop down to area, drag and drop, highlight might be more intuitive. Also set time and schedule for routing.</li>
+                <li>Information-wise, do officers get what they need to know?</li>
+                <li>Naming of button text, for example, "cancel" vs "review"</li>
+                <li>Area creation, explanation on areas</li>
+              </ul>
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+            <h4>Third Concept – Driver App</h4>
+            <p>For our third concept, I considered a driver parking app that would exist along with concept two, the drone management app. As concept two involves more drones doing the patrolling outside of council with the manager controlling in-office, the driver parking app would be a way for the public to communicate with the drone. From news articles and casual talk with people who drive, the main concerns people see towards parking enforcement is not knowing how long since your car’s been chalked, confusion with the meaning of hour limits and fining as way to raise revenue. Therefore, the idea of the driver parking app would be to clarify the times you can park and be alerted beforehand if you’re reaching the limit.</p>
+            <p>To explore this more, we decided to develop the parking app as a standalone concept from the driver’s perspective. Below is the imagined scenario in using the driver’s parking app:</p>
+            <h4>Testing Driver App</h4>
+            <p>We tested the first few screens I made in Marvel app with a parking officer on the weekend. While he understood the concept, he didn’t quite understand how it would be related to council, especially the use of messaging with officers. I felt that the concept needed more elaboration before our next user testing, and also asked for some general opinions from my brother, who studies engineering in information technology. He also didn’t quite understand messaging for the purpose of communicating if there was an issue, suggesting that there be an option to report.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/process-journal/driverparking1.JPG" class="img-fluid" alt="Responsive image">
+            <span class="img-caption">Early sketches of the driver parking app.</span>
+          </div>
+        </div>
+        <div class="row">
+            <p>Suggestions:
+              <ul>
+                <li>messages directly with council doesn't seem relevant</li>
+                <li>instead of idea of messages, if your parking breach needs review, have option to report</li>
+                <li>add ability to "top-up" the parking time, for parking metered spaces</li>
+              <ul>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row slide-show">
+          <div class="col-md-12">
+            <h4>Testing with Users</h4>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconcepttwo-1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconcepttwo-2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconceptone.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/process-journal/carousel-images1/testingconceptthree.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
                 </div>
               </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
+          </div>
+        </div>
+    </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                <p>Mid-Semester Break:
-				<br>During the break from classes, we had an interview with a manager in compliance. Unlike the previous people we've spoken to, he was a great advocate for automating parking enforcement. We learnt a lot about the various technologies that have been implemented to increase the efficiency of parking enforcement, and issues councils face going forward.
-				</p>
-              </div>
-            </div>
-		</div>
-            
-		<div class="row light">	
-			<div class="row section-heading" id="development">
-              <div class="col-md-12">
-                <h3>3. Development</h3>
-              </div>
-            </div>
-			
-			<div class="row">
-			  <div class="col-md-12">
-                <img src="./img/process-journal/initial_thumbnails.jpg" class="img-fluid" alt="Responsive image">
-                <span class="img-caption">Figure 3.1 - Small thumbnail sketches to understand overall interface elements</span>
-              </div>
-			</div>
+		<div class="row">
+        <div class="row section-heading" id="finaldevelopment">
+          <div class="col-md-12">
+            <h2>4. Final Development</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Week 10: Deciding Final Concept</h3>
+            <p>We decided on the parking officer mobile drone app for our final concept and made a higher fidelity prototype of it in InvisionApp to test with officers. After the feedback from concept 1, we decided to merge some elements from the two iterations two - that is the tiled menu screen of the first iteration into the flow of the second one. Some icons were changed after it was commented that it didn't make sense and we made sure that the order of infringement field information adhered to standards.</p>
+            <p>At testing, officers were glad with the resulting interface however as it was done indoors, they weren't exactly sure about the drone concept until they could put into action.</p>
+          </div>
+        </div>
 
 
-            <div class="row">
-              <div class="col-md-12">
-                <p>Week 9: <br>
-				We decided on two concepts – a mobile app for parking officers on patrol to find parking violations through drone surveys and a desktop application for managers in-office council to manage drone routes and infringement notices. </p>
-				<p>I focused on sketching UI designs for concept 2, the desktop application. As another group member would also be thinking about alternate designs to concept 2, I thought back to our interviews, where the concern towards drones was the regulations surrounding it and how it would be able to scan from an aerial point of view. Therefore, for the low-fidelity prototype, I opted to use the idea of ground robots alike the food delivery ones from our earlier problem area to see if that was more reassuring, in a way. </p>
-				<p>
-				I figured to have a map of the patrolling areas as the main page. The map is colour coded by area and has icons for robots within that area. When you click on robots you'll be able to send them to another area, or any issues and violations they found within the area and pictures taken. Alternatively, if a sign of dispute, say the robot is vandalised, or something occurs you can manually take a picture from that robot. When you zoom in you'll be able to see individual parking spaces, parking provisions, etc. about parking. Parking violated cars will be marked, from license plate registration so even if they park somewhere else on the street, it will be fined. That being said, you can click on these marked cars to see the infringement notices they have been issued through e-permits if they enter the supervised areas. On the side is an expandable/minimizable sidebar of notices of violations, colour coded by area and symbol. Clicking on them will give infringement details available to print and mail out in a modal popup. Also, maybe an option could be included to cancel it if you find any errors. 
-				That means the screens:
-				<ol>
-					<li>Map overview</li>
-					<li>Interactivity with icons
-						<ul>
-							<li>cars, spaces</li>
-							<li>robots</li>
-						</ul>
-					</li>
-					<li>Expanded sidebar</li>
-					<li>Infringement details pop-up modal</li>
-					<li>Login</li>
-				</ol>
-				</p>
-				<p>
-				In the low fidelity paper prototype, I changed and omitted a couple of aspects from this early design such as the details seen when zooming and the expandable sidebar became a fixed and scrollable one. I wanted to make it a bit more simpler and some features were difficult to test with paper. At this point in time, I had an idea of what the parking manager wanted to achieve from this kind of concept, but I wasn’t entirely sure of what information they needed so in the end, the prototype was focused on testing the overall interface elements of clicking robots and finding infringements.
-				</p>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Week 11: Improving on Final Concept</h3>
+            <h4>Iteration 1</h4>
+            <p>Since we decided to iterate on concept 1 for the final concept, we worked on improving the interface this week. As it was an application meant for use outdoors, our tutor suggested we improve contrast of the colour scheme. In order to work collaboratively on the final mockup, we started using Figma, an online collaborative tool to make wireframes and even prototypes with a Sketchapp-esque interface. I suggested we integrate the "admin view" feature using concept two so drones can be managed which we indicated by the blue header bar. I moved the drone camera view into admin view and added the feature within it to change drone routes. Here, managers of the parking enforcement can also view statistics of breaches found over time based on division, with the idea that it will help them.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/process-journal/dronecam-admin.png" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="col-md-6">
+            <img src="./img/process-journal/statistics.png" class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Week 12: Finalising our Concept</h3>
+            <h4>Iteration 2</h4>
+            <p>Tried different colour scheme for map for more stylized look. Added zooming function. I added swiping using gif animation through After Effects and improved menu linking. List of fines issued, clicking can go back to review because of mistake. Clarified divisions by making the colours contrast more and added text.</p>
+            <h4>Iteration 3</h4>
+            <p>
+We changed the colour scheme again for higher contrast in bright sunlight. After testing and seeing the officer try to zoom into some screens, we worked to increase font sizes and buttons.
+Changing colour of notification icons for clarity of it's indication.
+Added some scrolling to pages to make lengthy content easier to read and make way for enlarged text.
+Extended menu to length of the screen to make it easier to read and handle.
+Added linking between some screens for a clearer relationship. Linked personal record to infringement notice to review and cancel if something goes wrong.
+</p>
+          </div>
+        </div>
 
-            <div class="row slide-show">
-              <div class="col-md-12">
-                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-1.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-2.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./img/process-journal/carousel-images2/user-research-3.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12">
-                <p>Some things I would like to explore/change after today's first user testing:
-				<ul>
-					<li>drone setting options. Instead of drop down to area, drag and drop, highlight might be more intuitive. Also set time and schedule for 	routing.</li>
-					<li>information-wise, do officers get what they need to know?</li>
-					<li>naming, for example, cancel and review</li>
-					<li>area creation, explanation on areas</li>
-				</ul>
-				</p>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-8">
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/nhg9ecOh-oA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </div>
-            </div>
-	</div>
-
-		<div class="row dark">
-
-            <div class="row section-heading" id="finaldevelopment">
-              <div class="col-md-12">
-                <h3>4. Final Development</h3>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6">
-                <p>We decided on the parking officer mobile drone app for our final concept. </p>
-              </div>
-              <div class="col-md-6">
-                <img src="./img/process-journal/background_research.jpg" class="img-fluid" alt="Responsive image">
-                <span class="img-caption">Figure 4.1 - Sally</span>
-              </div>
-            </div>
 		</div>
             <!-- End Content -->
     </div>
@@ -373,7 +402,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <!--https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
+  <!--https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
 	$('a[href*="#"]')
@@ -381,8 +410,8 @@
 	.not('[href="#0"]')
 	.click(function(event) {
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       var target = $(this.hash);
@@ -394,11 +423,11 @@
         }, 1000, function() {
           var $target = $(target);
           $target.focus();
-          if ($target.is(":focus")) { 
+          if ($target.is(":focus")) {
             return false;
           } else {
-            $target.attr('tabindex','-1'); 
-            $target.focus(); 
+            $target.attr('tabindex','-1');
+            $target.focus();
           };
         });
       }
