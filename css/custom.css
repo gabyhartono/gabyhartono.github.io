@@ -6,7 +6,7 @@ Modify this file to your hearts content and make your website look awesome!*/
 body{
 	background-color: #f4f6f9;
 	padding-top: 80px;
-	position: relative
+	position: relative;
 }
 
 /*Home*/
@@ -28,7 +28,6 @@ body{
 
 /*Navbar Rules*/
 img.nav-bar-img{
-	margin-right: 10px;
 }
 
 .navbar{
@@ -37,8 +36,9 @@ img.nav-bar-img{
 }
 
 a.navbar-brand{
-	font-family:'PT Sans', Sans-Serif;
-	font-size:
+	font-family:'Source Sans Pro', Sans-Serif;
+	font-size: 24px;
+	color: #7c7c7c;
 }
 
 /*Floating Nav*/
@@ -49,10 +49,10 @@ a.navbar-brand{
 }
 
 a.float-nav-link{
-    font-family: 'PT Sans', Sans-Serif;
+    font-family: 'Muli', Sans-Serif;
     color: #595959;
     font-size: 14px;
-    font-weight: 600;
+		font-weight: 600;
     text-align: left;
 }
 
@@ -71,16 +71,18 @@ img{
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'PT Sans', Sans-Serif;
+	font-family:'Source Sans Pro', Sans-Serif;
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
 		font-size: 90px;
+		color: black;
 	}
 
 	h2.welcome-special-sub{
-		font-family: 'PT Sans', Sans-Serif;
+		font-family: 'Source Sans Pro', Sans-Serif;
 		font-size: 30px;
+		color: black;
 	}
 
 	h2{
@@ -95,9 +97,9 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 p, li, span, a {
-	font-family: 'Playfair Display', Serif;
+	font-family: 'Muli', sans-serif;
 	text-align: justify;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 	p{
@@ -126,7 +128,7 @@ span.img-caption{
 	background-color: transparent;
 	border-radius: 0px 0px 0px 0px;
 	border: 3px solid #000;
-	font-family:'PT Sans', Sans-Serif;
+	font-family:'Muli', sans-serif;
 	font-size: 15px;
 	color: #000;
 	text-transform: uppercase;
