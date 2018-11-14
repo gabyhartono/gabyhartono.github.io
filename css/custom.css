@@ -4,8 +4,7 @@ Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #f4f6f9;
-	padding-top: 80px;
+	background-color: #fff;
 	position: relative;
 }
 
@@ -16,7 +15,8 @@ body{
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
+	background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -32,13 +32,13 @@ img.nav-bar-img{
 
 .navbar{
 	background-color: #fff;
-
+	box-shadow: 0px -3px 10px #7c7c7c;
 }
 
 a.navbar-brand{
 	font-family:'Source Sans Pro', Sans-Serif;
 	font-size: 24px;
-	color: #7c7c7c;
+	font-weight: 700;
 }
 
 /*Floating Nav*/
@@ -72,28 +72,43 @@ img{
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Source Sans Pro', Sans-Serif;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 	h1.welcome-special{
 		font-size: 90px;
 		color: black;
+		font-weight: 700;
 	}
 
 	h2.welcome-special-sub{
 		font-family: 'Source Sans Pro', Sans-Serif;
 		font-size: 30px;
 		color: black;
+		font-weight: 700;
+	}
+
+	h1 {
+		letter-spacing: -0.5px;
+		font-size: 62px;
 	}
 
 	h2{
 		letter-spacing: -0.5px;
-		font-size: 36px;
-		font-weight: bold;
+		font-size: 42px;
+		font-weight: 700;
 	}
 
 	h3{
 		font-size: 24px;
-		color: #000000
+		color: #000000;
+	  font-weight: 600;
+	}
+
+	h4{
+		font-size: 18px;
+		color: #000000;
+	  font-weight: 600;
 	}
 
 p, li, span, a {
@@ -113,6 +128,11 @@ span.img-caption{
 	font-size: 12px;
 	font-weight: 500;
 	padding: 10px 0px 10px 0px;
+}
+
+.highlight-text {
+	text-align: center;
+	font-weight: 600;
 }
 
 /*Container/class etc Override Rules*/
@@ -139,12 +159,24 @@ span.img-caption{
 	border-color: #000;
 }
 
+.container-fluid{
+	padding: 80px 0px 20px 0px;
+	background-color: #494949;
+	color: #fff;
+}
+
+span.tagline{
+	font-weight: 100;
+	color: #b5b5b5;
+}
+
 .master-heading{
-	padding-top: 50px;
+	padding-top: 100px;
+	text-align: center;
 }
 
 .section-heading{
-	padding-top: 100px;
+	padding-top: 30px;
 }
 
 .slide-show{
