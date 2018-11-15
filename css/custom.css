@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h3{
-		font-size: 24px;
+		font-size: 28px;
 		color: #000000;
 	  font-weight: 600;
 	}
@@ -139,9 +139,9 @@ blockquote>p{
 
 .highlight-text {
 	text-align: center;
-	padding:50px 20px;
+	padding:50px 60px;
 	font-weight: 600;
-	border: 3px solid #e24b3b;
+	border: 3px solid #fc513f;
 }
 
 .listpara {
