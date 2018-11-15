@@ -132,7 +132,13 @@ span.img-caption{
 
 .highlight-text {
 	text-align: center;
+	padding:50px 20px;
 	font-weight: 600;
+	border: 5px solid #8ea7ff;
+}
+
+.listpara {
+	text-align: center;
 }
 
 /*Container/class etc Override Rules*/
@@ -159,24 +165,38 @@ span.img-caption{
 	border-color: #000;
 }
 
-.container-fluid{
-	padding: 80px 0px 20px 0px;
-	background-color: #494949;
-	color: #fff;
-}
-
 span.tagline{
 	font-weight: 100;
 	color: #b5b5b5;
 }
 
 .master-heading{
-	padding-top: 100px;
 	text-align: center;
+	padding: 130px 0px 20px 0px;
+	background-color: #494949;
+	color: #fff;
+}
+
+div.master-heading > div > p {
+	text-align: center;
+	color: black;
+	font-weight: 600;
+}
+
+#designprocess {
+	margin-top: 30px;
+	position: relative;
+	width:100%;
+	background: url('../img/portfolio/roughuisketches.JPG') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 .section-heading{
 	padding-top: 30px;
+	text-align: center;
 }
 
 .slide-show{
@@ -190,5 +210,4 @@ span.tagline{
 	width: 100%;
 	min-height: 100px;
 	background-color: #989898;
-	border-top: 1px solid #727272;
 }
