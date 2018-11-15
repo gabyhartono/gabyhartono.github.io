@@ -67,6 +67,7 @@ img{
 	-moz-border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
+	margin: 10px 0px;
 }
 
 /*Font Override Rules*/
@@ -126,19 +127,26 @@ p, li, span, a {
 span.img-caption{
 	display: block;
 	font-size: 12px;
-	font-weight: 500;
-	padding: 10px 0px 10px 0px;
+	font-weight: 400;
+	padding: 10px 0px;
+}
+
+blockquote>p{
+	text-align: center;
+	font-weight: 200;
+	color: #8ea7ff;
 }
 
 .highlight-text {
 	text-align: center;
 	padding:50px 20px;
 	font-weight: 600;
-	border: 5px solid #8ea7ff;
+	border: 3px solid #e24b3b;
 }
 
 .listpara {
 	text-align: center;
+	background-color: #fff;
 }
 
 /*Container/class etc Override Rules*/
@@ -172,7 +180,7 @@ span.tagline{
 
 .master-heading{
 	text-align: center;
-	padding: 130px 0px 20px 0px;
+	padding: 130px 0px 30px 0px;
 	background-color: #494949;
 	color: #fff;
 }
@@ -184,7 +192,7 @@ div.master-heading > div > p {
 }
 
 #designprocess {
-	margin-top: 30px;
+	margin-top: 50px;
 	position: relative;
 	width:100%;
 	background: url('../img/portfolio/roughuisketches.JPG') no-repeat center center fixed;
@@ -195,7 +203,7 @@ div.master-heading > div > p {
 }
 
 .section-heading{
-	padding-top: 30px;
+	padding-top: 50px;
 	text-align: center;
 }
 
