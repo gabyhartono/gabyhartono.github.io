@@ -4,8 +4,8 @@ Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #fff;
-	position: relative;
+  background-color: #fff;
+  position: relative;
 }
 
 /*Home*/
@@ -24,182 +24,186 @@ body{
 }
 
 /*Cards*/
-.card{border: none; background-color: transparent;}
+.card{
+  border: none; background-color: transparent;
+}
 
 /*Navbar Rules*/
 img.nav-bar-img{
 }
 
 .navbar{
-	background-color: #fff;
-	box-shadow: 0px -3px 10px #7c7c7c;
+  background-color: #fff;
+  box-shadow: 0px -3px 10px #7c7c7c;
 }
 
 a.navbar-brand{
-	font-family:'Source Sans Pro', Sans-Serif;
-	font-size: 24px;
-	font-weight: 700;
+  font-family:'Source Sans Pro', Sans-Serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /*Floating Nav*/
 .floating-nav{
-	position: fixed;
-	margin-top: 50px;
+  position: fixed;
+  margin-top: 50px;
 
 }
 
 a.float-nav-link{
-    font-family: 'Muli', Sans-Serif;
-    color: #595959;
-    font-size: 14px;
-		font-weight: 600;
-    text-align: left;
+  font-family: 'Muli', Sans-Serif;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
 }
 
 .nav-pills {
-	size: 50px;
-	border-radius: 50px;
+  size: 50px;
+  border-radius: 50px;
 }
 
 /*Image Rules*/
 img{
-	border-radius: 5px 5px 5px 5px;
-	-moz-border-radius: 5px 5px 5px 5px;
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border: 0px solid #000000;
-	margin: 10px 0px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+  margin: 10px 0px;
 }
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Source Sans Pro', Sans-Serif;
-	font-weight: 700;
-	margin-bottom: 20px;
+  font-family:'Source Sans Pro', Sans-Serif;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-	h1.welcome-special{
-		font-size: 90px;
-		color: black;
-		font-weight: 700;
-	}
+h1.welcome-special{
+  font-size: 90px;
+  color: black;
+  font-weight: 700;
+}
 
-	h2.welcome-special-sub{
-		font-family: 'Source Sans Pro', Sans-Serif;
-		font-size: 30px;
-		color: black;
-		font-weight: 700;
-	}
+h2.welcome-special-sub{
+  font-family: 'Source Sans Pro', Sans-Serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
 
-	h1 {
-		letter-spacing: -0.5px;
-		font-size: 62px;
-	}
+h1 {
+  letter-spacing: -0.5px;
+  font-size: 62px;
+}
 
-	h2{
-		letter-spacing: -0.5px;
-		font-size: 42px;
-		font-weight: 700;
-	}
+h2{
+  letter-spacing: -0.5px;
+  font-size: 42px;
+  font-weight: 700;
+}
 
-	h3{
-		font-size: 28px;
-		color: #000000;
-	  font-weight: 600;
-	}
+h3{
+  font-size: 28px;
+  font-weight: 600;
+}
 
-	h4{
-		font-size: 18px;
-		color: #000000;
-	  font-weight: 600;
-	}
+h4{
+  font-size: 18px;
+  font-weight: 600;
+}
 
 p, li, span, a {
-	font-family: 'Muli', sans-serif;
-	text-align: justify;
-	font-weight: 400;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+	ont-weight: 400;
 }
 
-	p{
-		color: #494949;
-		line-height: 30px;
-		margin-bottom: 25px;
-	}
+p{
+  color: #494949;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
 
 span.img-caption{
-	display: block;
-	font-size: 12px;
-	font-weight: 400;
-	padding: 10px 0px;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px 0px;
 }
 
 blockquote>p{
-	text-align: center;
-	font-weight: 200;
-	color: #8ea7ff;
+  text-align: center;
+  font-weight: 200;
+  color: #8ea7ff;
 }
 
 .highlight-text {
-	text-align: center;
-	padding:50px 60px;
-	font-weight: 600;
-	border: 3px solid #fc513f;
+  text-align: center;
+  padding:50px 60px;
+  font-weight: 600;
+  border: 3px solid #fc513f;
 }
 
 .listpara {
-	text-align: center;
-	background-color: #fff;
+  text-align: center;
+  background-color: #fff;
 }
 
 /*Container/class etc Override Rules*/
 .welcome-message{
-	margin-top: 200px;
+  margin-top: 200px;
 }
 
 .welcome-button-container{
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .welcome-button{
-	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #000;
-	font-family:'Muli', sans-serif;
-	font-size: 15px;
-	color: #000;
-	text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 0px 0px 0px 0px;
+  border: 3px solid #000;
+  font-family:'Muli', sans-serif;
+  font-size: 15px;
+  color: #000;
+  text-transform: uppercase;
 }
 
 .welcome-button:hover{
-	background-color: #000;
-	border-color: #000;
+  background-color: #000;
+  border-color: #000;
 }
 
 span.tagline{
-	font-weight: 100;
-	color: #b5b5b5;
+  font-weight: 100;
+  color: #b5b5b5;
 }
 
 .master-heading{
-	text-align: center;
-	padding: 130px 0px 30px 0px;
-	background-color: #494949;
-	color: #fff;
+  text-align: center;
+  padding: 130px 0px 30px 0px;
+  background-color: #000;
+  color: #fff;
 }
 
 div.master-heading > div > p {
-	text-align: center;
-	color: black;
-	font-weight: 600;
+  text-align: center;
+  color: white;
 }
 
 #designprocess {
 	margin-top: 50px;
 	position: relative;
-	width:100%;
-	background: url('../img/portfolio/roughuisketches.JPG') no-repeat center center fixed;
+	background:     
+	    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+			),
+			url('../img/portfolio/roughuisketches.JPG');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	color: white;
 }
 
 .section-heading{
@@ -217,5 +221,5 @@ div.master-heading > div > p {
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
+	background-color: #000;
 }
