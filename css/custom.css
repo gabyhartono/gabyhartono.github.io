@@ -1,7 +1,4 @@
-/*This Custom CSS file has not been structured in any particular order.
-
-Modify this file to your hearts content and make your website look awesome!*/
-
+/*This Custom CSS file has not been structured in any particular order.*/
 
 body{
   background-color: #fff;
@@ -16,7 +13,7 @@ body{
   width:100%;
   min-height: 100vh;
   /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
-	background-color: white;
+	background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -26,6 +23,11 @@ body{
 /*Cards*/
 .card{
   border: none; background-color: transparent;
+}
+
+.project-card {
+	border: 1px solid #595959;
+	margin: 20px 0px;
 }
 
 /*Navbar Rules*/
@@ -119,7 +121,7 @@ p, li, span, a {
 }
 
 p{
-  color: #494949;
+  color: #595959;
   line-height: 30px;
   margin-bottom: 25px;
 }
@@ -134,7 +136,7 @@ span.img-caption{
 blockquote>p{
   text-align: center;
   font-weight: 200;
-  color: #8ea7ff;
+  color: #3366ff;
 }
 
 .highlight-text {
