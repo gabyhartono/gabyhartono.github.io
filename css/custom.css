@@ -8,11 +8,10 @@ body{
 /*Home*/
 .full-page-bg {
   position: absolute;
-  margin-top: -80px;
-  padding-bottom: 100px;
+  margin: 0px;
   width:100%;
   min-height: 100vh;
-  /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
+  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
 	background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -26,8 +25,12 @@ body{
 }
 
 .project-card {
-	border: 1px solid #595959;
+	background-color: ;
 	margin: 20px 0px;
+}
+
+.project-card > img{
+	margin: 0px;
 }
 
 /*Navbar Rules*/
@@ -154,20 +157,20 @@ blockquote>p{
 /*Container/class etc Override Rules*/
 .welcome-message{
   margin-top: 200px;
+	text-align: center;
 }
 
 .welcome-button-container{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .welcome-button{
   background-color: transparent;
-  border-radius: 0px 0px 0px 0px;
-  border: 3px solid #000;
+  border-radius: 25px;
+  border: 2px solid #000;
   font-family:'Muli', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #000;
-  text-transform: uppercase;
 }
 
 .welcome-button:hover{
@@ -200,7 +203,7 @@ div.master-heading > div > p {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
 			),
-			url('../img/portfolio/roughuisketches.JPG');
+			url('../img/portfolio/drones-interaction-design/roughuisketches.JPG');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
