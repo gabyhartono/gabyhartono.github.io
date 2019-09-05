@@ -11,8 +11,8 @@ body{
   margin: 0px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
-	background-color: rgba(255, 255, 255, 0.3);
+  /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
+	background-color: rgb(244, 212, 203);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -28,10 +28,16 @@ body{
   border: none;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
+.card-subtitle {
+  font-family:'Muli', Sans-Serif;
+  font-weight: 300;
+  color: #5d5d5d;
+  margin-bottom: 20px;
+}
 .project-card {
-	background-color: rgba(217, 210, 208, 0.5);
+	background-color: rgba(244, 212, 203, 0.5);
 	margin: 20px 0px;
+  border: 1px solid #efefef;
 }
 
 .project-card > img{
@@ -39,12 +45,7 @@ body{
 }
 
 .project-card:hover {
-	background-color: rgba(217, 210, 208, 1.0);
-}
-
-.project-card>img:hover {
-	opacity: 0.3;
-	filter: alpha(opacity=30); /* For IE8 and earlier */
+	background-color: rgba(244, 212, 203, 1.0);
 }
 
 /*Navbar Rules*/
@@ -53,7 +54,7 @@ img.nav-bar-img{
 
 .navbar{
   background-color: #fff;
-  box-shadow: 0px -3px 10px #7c7c7c;
+  box-shadow: 0px -2px 8px #efefef;
 }
 
 a.navbar-brand{
@@ -77,6 +78,7 @@ a.float-nav-link{
   text-align: left;
 }
 
+
 .nav-pills {
   size: 50px;
   border-radius: 50px;
@@ -98,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 h1.welcome-special{
-  font-size: 90px;
+  font-size: 72px;
   color: black;
   font-weight: 700;
 }
@@ -107,7 +109,7 @@ h2.welcome-special-sub{
   font-family: 'Source Sans Pro', Sans-Serif;
   font-size: 30px;
   color: black;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h1 {
@@ -134,7 +136,7 @@ h4{
 p, li, span, a {
   font-family: 'Muli', sans-serif;
   text-align: left;
-	ont-weight: 400;
+	font-weight: 400;
 }
 
 p{
@@ -182,21 +184,20 @@ blockquote>p{
 .welcome-button{
   background-color: transparent;
   border-radius: 25px;
-  border: 2px solid #000;
+  border: 2px solid #0b375d;
   font-family:'Muli', sans-serif;
   font-size: 18px;
-  color: #000;
+  color: #0b375d;
 	transition: all .1s ease-in-out;
 }
 
 .welcome-button:hover{
-  background-color: #000;
-  border-color: #000;
+  background-color: #0b375d;
+  border-color: #0b375d;
 	transform: scale(1.08);
 }
 
 span.tagline{
-  font-weight: 100;
   color: #b5b5b5;
 }
 
