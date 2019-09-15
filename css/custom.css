@@ -93,7 +93,7 @@ img{
   margin: 10px 0px;
 }
 
-/*Font Override Rules*/
+/*Typeface Rules*/
 h1, h2, h3, h4, h5, h6 {
   font-family:'Source Sans Pro', Sans-Serif;
   font-weight: 700;
@@ -179,11 +179,12 @@ blockquote>p{
 
 .welcome-button-container{
   margin-top: 30px;
+  text-align: right;
 }
 
 .welcome-button{
   background-color: transparent;
-  border-radius: 25px;
+  border-radius: 10px;
   border: 2px solid #0b375d;
   font-family:'Muli', sans-serif;
   font-size: 18px;
@@ -194,7 +195,7 @@ blockquote>p{
 .welcome-button:hover{
   background-color: #0b375d;
   border-color: #0b375d;
-	transform: scale(1.08);
+  color: #fff;
 }
 
 span.tagline{
@@ -208,13 +209,15 @@ span.tagline{
 .master-heading{
   text-align: center;
   padding: 200px 0px 30px 0px;
-  background-color: #000;
+  background-color: #0b375d;
   color: #fff;
+
 }
 
 div.master-heading > div > p {
   text-align: center;
   color: white;
+  max-width: 960px;
 }
 
 #designprocess {
@@ -249,7 +252,8 @@ div.master-heading > div > p {
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #000;
+	background-color: transparent;
+  box-shadow: 3px 3px 10px #efefef;
 }
 .footer .row{
   margin: 0px;
