@@ -61,6 +61,7 @@ div.clickEffect{
 	}
 }
 
+
 /*Cards*/
 .projects a {
 	text-decoration: none;
@@ -109,6 +110,23 @@ a.navbar-brand{
   font-family:'Source Sans Pro', Sans-Serif;
   font-size: 24px;
   font-weight: 700;
+}
+a.nav-item.nav-link {
+	position:relative;
+	margin-left: 30px;
+}
+a.nav-item.nav-link::after {
+  border-top: .3em solid  rgba(244, 212, 203, 1.0);
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0em;
+  left: 0;
+  transition: right .4s ease-in;
+}
+
+a.nav-item.nav-link:hover::after {
+  right: 0;
 }
 
 /*Floating Nav*/
