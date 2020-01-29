@@ -40,28 +40,6 @@ body{
   z-index:-2;
 }
 
-div.clickEffect{
-  opacity: 1;
-	position:fixed;
-	box-sizing:border-box;
-  background-color: #ffb0b5;
-  border: none;
-	border-radius:50%;
-	animation:clickEffect 0.2s ease-in;
-	z-index:99999;
-}
-@keyframes clickEffect{
-	0%{
-		width:2px; height:2px;
-    margin: 25px;
-	}
-	100%{
-		width:50px; height:50px;
-    margin: 0px;
-	}
-}
-
-
 /*Cards*/
 .projects a {
 	text-decoration: none;
@@ -133,6 +111,10 @@ a.nav-item.nav-link:hover::after {
   right: 0;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 /*Floating Nav*/
 .floating-nav{
   position: fixed;
@@ -170,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 h1.welcome-special{
-  font-size: 72px;
+  font-size: 62px;
   color: black;
   font-weight: 700;
 }
@@ -184,7 +166,7 @@ h1.welcome-special{
 
 h1 {
   letter-spacing: -0.5px;
-  font-size: 62px;
+  font-size: 56px;
 }
 
 h2{
@@ -213,6 +195,10 @@ p{
   color: #000;
   line-height: 30px;
   margin: 25px 0px;
+}
+
+.welcome-message sup{
+  color: blue;
 }
 
 .master-heading p {
@@ -289,7 +275,6 @@ span.tagline{
 }
 
 div.master-heading > div > p {
-  text-align: center;
   color: white;
   max-width: 960px;
 }
@@ -327,9 +312,8 @@ div.master-heading > div > p {
 	width: 100%;
 	min-height: 100px;
 	background-color: transparent;
-  box-shadow: 3px 3px 10px #efefef;
+
 }
 .footer .row{
   margin: 0px;
-  padding: 0px;
 }
