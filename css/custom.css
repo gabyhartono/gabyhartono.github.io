@@ -304,6 +304,11 @@ div.master-heading > div > p {
 	padding: 30px 0px 50px 0px;
 }
 
+video {
+  width:70%  !important;
+  height: auto  !important;
+}
+
 /*Footer*/
 .footer{
   margin-bottom: 0px;
