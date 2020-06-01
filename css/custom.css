@@ -258,6 +258,15 @@ blockquote>p{
   color: #fff;
 }
 
+.back-button{
+  border-color: #0b375d;
+  color: #0b375d;
+}
+
+.back-button:hover{
+  background-color: #0b375d;
+}
+
 span.tagline{
   color: #b5b5b5;
 }
