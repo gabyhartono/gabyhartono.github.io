@@ -68,3 +68,51 @@ function linemove(e){
 }
 document.addEventListener("click", circleonclick, false);
 document.addEventListener("mousemove", linemove, false);
+
+$('a[href*="#"]')
+.not('[href="#"]')
+.not('[href="#0"]')
+.click(function(event) {
+  if (
+    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+    &&
+    location.hostname == this.hostname
+  ) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top - 100
+      }, 1000, function() {
+        var $target = $(target);
+        $target.focus();
+        if ($target.is(":focus")) {
+          return false;
+        } else {
+          $target.attr('tabindex','-1');
+          $target.focus();
+        };
+      });
+    }
+  }
+});
+
+//Javascript code from https://codepen.io/staffan-ad/pen/zaLevE
+$(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var tags = $(".tag");
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBottom) {
+      $(tag).addClass("visible");
+      $(".navbar-brand").addClass("visible");
+    } else {
+      $(tag).removeClass("visible");
+      $(".navbar-brand").removeClass("visible");
+    }
+  }
+});

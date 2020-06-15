@@ -7,7 +7,7 @@ body{
 
 /*Home*/
 .full-page-bg {
-  position: absolute;
+  position: relative;
   margin: 0px;
   width:100%;
   min-height: 100vh;
@@ -41,6 +41,7 @@ body{
 }
 
 /*Cards*/
+
 .projects a {
 	text-decoration: none;
 	color: #000;
@@ -69,20 +70,26 @@ body{
   padding: 50px 50px;
   transition: all .2s ease-in;
 }
-.project-card > img{
-	margin: 0px;
-  position: relative;
-}
 
 .card-img-overlay:hover {
 	opacity: 1;
   border: 0px;
 }
 
-/*Navbar Rules*/
-img.nav-bar-img{
+.project-card > .row {
+  margin: 0;
 }
 
+.project-card .card-img{
+  margin: 0;
+  position: relative;
+  height: 400px;
+  object-fit:cover;
+
+}
+
+
+/*Navbar Rules*/
 .navbar{
   background-color: #fff;
   box-shadow: 0px -2px 8px #efefef;
@@ -93,6 +100,11 @@ a.navbar-brand{
   font-size: 24px;
   font-weight: 700;
 }
+
+.navbar-brand-home {
+  opacity: 0;
+}
+
 a.nav-item.nav-link {
 	position:relative;
 	margin-left: 30px;
@@ -197,6 +209,11 @@ p{
   margin: 25px 0px;
 }
 
+h1 > .underline, h2 > .underline{
+  font: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #03c6fc 35%);
+}
+
 .welcome-message sup{
   color: blue;
 }
@@ -231,6 +248,20 @@ blockquote>p{
 }
 
 /*Container/class etc Override Rules*/
+.tag {
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 .welcome-message{
   margin-top: 150px;
   padding: 50px;
@@ -238,12 +269,12 @@ blockquote>p{
 }
 
 .welcome-button-container{
-  margin-top: 30px;
-  text-align: right;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .welcome-button{
-  background-color: transparent;
+  background-color: #fff;
   border-radius: 10px;
   border: 2px solid #0b375d;
   font-family:'Muli', sans-serif;
@@ -278,13 +309,12 @@ span.tagline{
 .master-heading{
   text-align: center;
   padding: 200px 0px 50px 0px;
-  background-color: #0b375d;
-  color: #fff;
-
+  /* background-color: #0b375d; */
+  color: #000;
 }
 
 div.master-heading > div > p {
-  color: white;
+  color: black;
   max-width: 960px;
 }
 
@@ -325,13 +355,18 @@ video {
 /*Footer*/
 .footer{
   margin-bottom: 0px;
-	margin-top: 150px;
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
 	background-color: transparent;
+  border-top: 0.5px solid #efefef;
 
 }
 .footer .row{
   margin: 0px;
+}
+
+h4 > .underline {
+  font-weight: bold;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #f5dc62 35%);
 }

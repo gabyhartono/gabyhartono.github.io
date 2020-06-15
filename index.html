@@ -18,20 +18,22 @@
     <title>Gabriella Hartono | UX/UI Designer</title>
 
     <!-- This is our Meta Description -->
-    <meta name="description" content="Gabriella Hartono's Portfolio Website.">
+    <meta name="description" content="Gabriella Hartono's web portfolio with case studies of UX/UI projects.">
 
   </head>
   <body>
+
 		<!-- This is where our Navbar lives -->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
 			<div class="container">
+        <a class="navbar-brand navbar-brand-home" href="./index.html">Gabriella Hartono</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav ml-auto">
 						<a class="nav-item nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+						<a class="nav-item nav-link" href="#scroll-to-work">Portfolio</a>
 						<a class="nav-item nav-link" href="about.html">About</a>
 					</div>
 				</div>
@@ -39,9 +41,10 @@
 		</nav>
 		<!-- Navbar End -->
 
+    <canvas id="circlesbg"></canvas>
 		<div class="full-page-bg">
       <div class="container bg-transparent">
-          <div class="row h-100">
+          <div class="row h-300">
               <div class="col-12 mx-auto">
                   <div class="card welcome-message">
                       <span id="circle"></span>
@@ -49,7 +52,7 @@
                          <h1 class="welcome-special">Gabriella Hartono</h1>
                          <h3 class="welcome-special-sub">I'm a graduate UX designer based in Sydney. I also code and like to draw a lot.</h3>
                       <div class="welcome-button-container">
-                        <a href="./portfolio.html" class="btn btn-primary btn-lg welcome-button" role="button" aria-pressed="true"><strong>Explore my works</strong></a>
+                        <a href="#scroll-to-work" class="btn btn-primary btn-lg welcome-button" role="button" aria-pressed="true"><strong>Explore my works</strong></a>
                       </div>
 											</div>
                   </div>
@@ -57,13 +60,85 @@
           </div>
       </div>
     </div>
-    <canvas id="circlesbg"></canvas>
 
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div class="container">
+      <div class="row master-heading justify-content-center tag" id="scroll-to-work">
+        <div class="col-md-12">
+          <h1><span class="underline">Portfolio</span></h1>
+          <span class="tagline">Here's some projects I have worked on:</span>
+        </div>
+      </div>
+    </div>
 
-      <script src="js/homepage.js"></script>
+    <div class="container projects tag">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <a href="./dailylist.html">
+            <div class="card project-card">
+              <img class="card-img img-fluid" src="./img/portfolio/daily-list-app/dailylist-mockup.png" alt="Cancer Council WordPress website" >
+              <div class="card-img-overlay justify-content-center">
+                <h3 class="card-title">Daily list app</h5>
+                <h6 class="card-subtitle">Concept, UX, Interaction Design</h6>
+                <p class="card-text">Design of an app concept and clickable prototype, for recurring to-do lists.</p>
+              </div>
+            </div>
+          </a>
+        <a href="./social-media-cancercouncil.html">
+          <div class="card project-card">
+            <img class="card-img img-fluid" src="./img/portfolio/cancercouncil-socialmedia/wordpress_homepage.png" alt="Cancer Council WordPress website" >
+            <div class="card-img-overlay justify-content-center">
+              <h3 class="card-title">Social Media Strategy</h5>
+              <h6 class="card-subtitle">Research, strategy, website development</h6>
+              <p class="card-text">Creation of social media plan and WordPress website for Cancer Council Australia as part of DECO2010 Designing Social Media unit.</p>
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-md-6">
+        <a href="./music-experience-agnsw.html">
+          <div class="card project-card">
+            <img class="card-img img-fluid" src="./img/portfolio/gallery-user-experience/musicapp_mockups.png" alt="AGNSW Music App image" >
+            <div class="card-img-overlay">
+              <h3 class="card-title">AGNSW Music App</h5>
+              <h6 class="card-subtitle">UX research, ideation, journey mapping</h6>
+              <p class="card-text">Music journey app for Art Gallery of New South Wales visitors from DECO2100 User Experience Studio unit.</p>
+            </div>
+          </div>
+        </a>
+        <a href="./wayfinding-usyd.html">
+          <div class="card project-card">
+            <img class="card-img img-fluid" src="./img/portfolio/usyd-wayfinding-design/Model_insitu.png" alt="Wayfinding Station image" >
+            <div class="card-img-overlay">
+              <h3 class="card-title">University Wayfinding Station</h5>
+              <h6 class="card-subtitle">UX research, ideation, prototyping, testing</h6>
+              <p class="card-text">Sheltered wayfinding for the University of Sydney as part of  DECO1006 Design Processes and Methods unit.</p>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class = "footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h4 class="text-center"><span class="underline">Contact me</span></h4>
+            <p class="text-center"><a href="mailto:gabhartono@gmail.com">gabhartono@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="js/homepage.js"></script>
+
   </body>
 </html>
