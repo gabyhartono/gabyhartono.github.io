@@ -1,8 +1,52 @@
 /*This Custom CSS file has not been structured in any particular order.*/
+@media (min-width: 768px) {
+  h1 {
+    letter-spacing: -0.5px;
+    font-size: 56px;
+  }
+  h1.welcome-special{
+    font-size: 62px;
+    color: black;
+    font-weight: 700;
+  }
+  .welcome-special-sub{
+    font-family: 'Muli', Sans-Serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+  }
+  .project-heading {
+    border-bottom: 1px solid rgba(244, 212, 203);
+    background: rgb(244,212,203);
+    background: linear-gradient(90deg, rgba(244,212,203,1) 0%, rgba(244,212,203,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  }
+}
+@media (max-width: 767.98px) {
+  h1 {
+    letter-spacing: -0.5px;
+    font-size: 48px;
+  }
+  h1.welcome-special{
+    font-size: 48px;
+    line-height: 42px;
+    color: black;
+    font-weight: 700;
+  }
+  .welcome-special-sub{
+    font-family: 'Muli', Sans-Serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+  }
+  .project-heading {
+    background: #fff;
+  }
+}
 
 body{
   background-color: #fff;
   position: relative;
+  padding-top: 62px;
 }
 
 /*Home*/
@@ -13,11 +57,11 @@ body{
   min-height: 100vh;
   /*background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;*/
 	/*background-color: rgb(244, 212, 203);*/
-  background: none;
+  /* background: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
 }
 
 #circle {
@@ -157,28 +201,15 @@ img{
   margin: 10px 0px;
 }
 
+.project-img {
+  margin: 0;
+}
+
 /*Typeface Rules*/
 h1, h2, h3, h4, h5, h6 {
   font-family:'Source Sans Pro', Sans-Serif;
   font-weight: 700;
   margin-bottom: 20px;
-}
-h1.welcome-special{
-  font-size: 62px;
-  color: black;
-  font-weight: 700;
-}
-
-.welcome-special-sub{
-  font-family: 'Muli', Sans-Serif;
-  font-size: 30px;
-  color: black;
-  font-weight: 400;
-}
-
-h1 {
-  letter-spacing: -0.5px;
-  font-size: 56px;
 }
 
 h2{
@@ -263,7 +294,7 @@ blockquote>p{
 }
 
 .welcome-message{
-  margin-top: 150px;
+  margin-top: 120px;
   padding: 50px;
 	text-align: left;
 }
@@ -274,19 +305,18 @@ blockquote>p{
 }
 
 .welcome-button{
-  background-color: #fff;
-  border-radius: 10px;
-  border: 2px solid #0b375d;
+  background-color: transparent;
+  border: none;
   font-family:'Muli', sans-serif;
   font-size: 18px;
   color: #0b375d;
-	transition: all .1s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .welcome-button:hover{
-  background-color: #0b375d;
-  border-color: #0b375d;
-  color: #fff;
+  transform: translate(0, 10px);
+  background-color: #fff;
+  color: #0b375d;
 }
 
 .back-button{
@@ -299,7 +329,7 @@ blockquote>p{
 }
 
 span.tagline{
-  color: #b5b5b5;
+  color: #595959;
 }
 
 .row{
@@ -308,7 +338,7 @@ span.tagline{
 
 .master-heading{
   text-align: center;
-  padding: 200px 0px 50px 0px;
+  padding: 138px 0px 50px 0px;
   /* background-color: #0b375d; */
   color: #000;
 }
@@ -316,6 +346,15 @@ span.tagline{
 div.master-heading > div > p {
   color: black;
   max-width: 960px;
+}
+
+.project-heading {
+  text-align: center;
+  /*border-bottom: 1px solid rgba(244, 212, 203);*/
+  color: #000;
+}
+.project-heading .project-text {
+  padding: 50px;
 }
 
 hr {
