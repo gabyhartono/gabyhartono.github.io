@@ -209,7 +209,7 @@ img{
 h1, h2, h3, h4, h5, h6 {
   font-family:'Source Sans Pro', Sans-Serif;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h2{
@@ -330,6 +330,7 @@ blockquote>p{
 
 span.tagline{
   color: #595959;
+  display: inline-block;
 }
 
 .row{
@@ -338,7 +339,7 @@ span.tagline{
 
 .master-heading{
   text-align: center;
-  padding: 138px 0px 50px 0px;
+  padding: 120px 0px 50px 0px;
   /* background-color: #0b375d; */
   color: #000;
 }

@@ -110,9 +110,13 @@ $(document).on("scroll", function() {
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("visible");
       $(".navbar-brand").addClass("visible");
+      $(".active").removeClass("active");
+      $(".nav-item:contains(Portfolio)").addClass("active");
     } else {
       $(tag).removeClass("visible");
       $(".navbar-brand").removeClass("visible");
+      $(".nav-item:contains(Portfolio)").removeClass("active");
+      $(".nav-item:contains(Home)").addClass("active");
     }
   }
 });
