@@ -10,7 +10,7 @@
     font-weight: 700;
   }
   .welcome-special-sub{
-    font-family: 'Muli', Sans-Serif;
+    font-family: 'Roboto', Sans-Serif;
     font-size: 30px;
     color: black;
     font-weight: 400;
@@ -33,7 +33,7 @@
     font-weight: 700;
   }
   .welcome-special-sub{
-    font-family: 'Muli', Sans-Serif;
+    font-family: 'Roboto', Sans-Serif;
     font-size: 24px;
     color: black;
     font-weight: 400;
@@ -99,7 +99,7 @@ body{
 }
 
 .card-subtitle {
-  font-family:'Muli', Sans-Serif;
+  font-family:'Roboto', Sans-Serif;
   font-weight: 500;
   color: #5d5d5d;
   margin-bottom: 20px;
@@ -179,7 +179,7 @@ a.nav-item.nav-link:hover::after {
 }
 
 a.float-nav-link{
-  font-family: 'Muli', Sans-Serif;
+  font-family: 'Roboto', Sans-Serif;
   color: #595959;
   font-size: 14px;
   font-weight: 600;
@@ -229,7 +229,7 @@ h4{
 }
 
 p, li, span, a {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
 	font-weight: 400;
 }
@@ -307,7 +307,7 @@ blockquote>p{
 .welcome-button{
   background-color: transparent;
   border: none;
-  font-family:'Muli', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-size: 18px;
   color: #0b375d;
 	transition: all .2s ease-in-out;
