@@ -1,4 +1,10 @@
 /*This Custom CSS file has not been structured in any particular order.*/
+body{
+  background-color: #fff;
+  position: relative;
+  padding-top: 62px;
+}
+
 @media (min-width: 768px) {
   h1 {
     letter-spacing: -0.5px;
@@ -19,6 +25,9 @@
     border-bottom: 1px solid rgba(244, 212, 203);
     background: rgb(244,212,203);
     background: linear-gradient(90deg, rgba(244,212,203,1) 0%, rgba(244,212,203,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+  }
+  .welcome-message > .card-body {
+    padding-left: 80px;
   }
 }
 @media (max-width: 767.98px) {
@@ -41,13 +50,11 @@
   .project-heading {
     background: #fff;
   }
+  .welcome-message > .card-body {
+    padding: 0px 0px 0px 0px;
+  }
 }
 
-body{
-  background-color: #fff;
-  position: relative;
-  padding-top: 62px;
-}
 
 /*Home*/
 .full-page-bg {
@@ -93,9 +100,6 @@ body{
 .card.welcome-message{
   border: none;
   background: none;
-}
-.welcome-message > .card-body {
-  padding-left: 80px;
 }
 
 .card-subtitle {
@@ -305,6 +309,8 @@ blockquote>p{
 }
 
 .welcome-button{
+  margin-top: 100px;
+  text-align: center;
   background-color: transparent;
   border: none;
   font-family:'Roboto', sans-serif;
@@ -315,8 +321,10 @@ blockquote>p{
 
 .welcome-button:hover{
   transform: translate(0, 10px);
-  background-color: #fff;
-  color: #0b375d;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 .back-button{

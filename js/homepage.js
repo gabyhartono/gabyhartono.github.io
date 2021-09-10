@@ -79,6 +79,7 @@ $('a[href*="#"]')
     location.hostname == this.hostname
   ) {
     var target = $(this.hash);
+    console.log(target);
     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
     if (target.length) {
       event.preventDefault();
@@ -104,19 +105,25 @@ $(document).on("scroll", function() {
   var pageBottom = pageTop + $(window).height();
   var tags = $(".tag");
 
+  if (pageBottom < $(tags[1]).position().top) {
+    $(".navbar-brand").removeClass("visible");
+  } else {
+    $(".navbar-brand").addClass("visible");
+  }
+
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
 
     if ($(tag).position().top < pageBottom) {
       $(tag).addClass("visible");
-      $(".navbar-brand").addClass("visible");
-      $(".active").removeClass("active");
-      $(".nav-item:contains(Portfolio)").addClass("active");
     } else {
       $(tag).removeClass("visible");
-      $(".navbar-brand").removeClass("visible");
-      $(".nav-item:contains(Portfolio)").removeClass("active");
-      $(".nav-item:contains(Home)").addClass("active");
     }
   }
+});
+
+// Activate scrollspy to add active class to navbar items on scroll
+$('body').scrollspy({
+  target: '#navbarNavAltMarkup',
+  offset: 56
 });
