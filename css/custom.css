@@ -238,6 +238,10 @@ p, li, span, a {
 	font-weight: 400;
 }
 
+a {
+  color: #1E79B0;
+}
+
 p{
   color: #000;
   line-height: 30px;
@@ -325,6 +329,7 @@ blockquote>p{
 
 a:hover{
   text-decoration: none;
+  color: #17577E;
 }
 
 .back-button{
